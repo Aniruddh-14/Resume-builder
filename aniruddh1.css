@@ -1,0 +1,109 @@
+html{
+    scroll-behavior: smooth;
+body {
+    background-image: url("https://cdn.pixabay.com/photo/2022/06/03/17/53/blue-wallpaper-7240665_1280.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+nav {
+    position: sticky;
+    top: 0;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    text-align: center;
+    z-index: 1000;
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav a:hover {
+    color: #ff0000;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 20px 0;
+    color: #fff;
+}
+
+h1 span {
+    color: #ff0000;
+}
+
+.profile-img {
+    display: block;
+    margin: 20px auto;
+    width: 20%;
+    border-radius: 50%;
+    border: 5px groove black;
+}
+.social-links {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.social-links a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-links img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-links img:hover {
+    transform: scale(1.1);
+}
+
+section {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+
+section h2 {
+    color: #ff0000;
+    font-size: 2rem;
+}
+
+section p, ol {
+    font-size: 1.2rem;
+}
+
+ol {
+    list-style: none;
+    padding-left: 0;
+}
+
+ol li {
+    background-color: yellow;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: black;
+    border-radius: 8px;
+    font-weight: bold;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.9);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+}
